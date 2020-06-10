@@ -166,7 +166,7 @@ Loop through $food_assoc and print the meal names (keys of $food_assoc)
 as unordered list-items. Loop through the current meal (inner loop through sub-array) 
 and print the type and origin as nested list items (see the example below).
 */
-echo "<ul> My faverite food are <br>";
+echo "<ul> <h3>My faverite meal are</h3> <br>";
 foreach ($food_assoc as $food => $v) {
   echo "<li>". $food ."<ul>";
     for ($x = 0; $x < sizeof($v); $x++){
